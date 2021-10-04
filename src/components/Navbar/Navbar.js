@@ -10,9 +10,13 @@ function NavBar() {
     <>
       <nav className="navbar">
         <div className="nav-container">
-          <NavLink exact to="/" className="nav-logo">
+          <NavLink
+            exact
+            to="/"
+            className="nav-logo"
+            style={{ fontWeight: "700" }}
+          >
             LEARN QURAN
-            <i class="bi bi-app"></i>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>
@@ -52,12 +56,12 @@ function NavBar() {
             <li className="nav-item">
               <NavLink
                 exact
-                to="/courses"
+                to="/blog"
                 activeClassName="active"
                 className="nav-links"
                 onClick={handleClick}
               >
-                Courses
+                Blog
               </NavLink>
             </li>
           </ul>

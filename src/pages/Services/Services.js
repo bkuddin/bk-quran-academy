@@ -19,7 +19,7 @@ const Services = () => {
       </h1>
       <Row xs={1} md={4} className="g-4 mx-5 my-5">
         {services.map((service) => (
-          <DisplayService service={service}></DisplayService>
+          <DisplayService key={service.id} service={service}></DisplayService>
         ))}
       </Row>
 
@@ -33,7 +33,10 @@ const Services = () => {
       <div>
         <Row xs={1} md={4} className="g-4 mx-5 my-5">
           {services.map((service) => (
-            <DisplayService2 service={service}></DisplayService2>
+            <DisplayService2
+              key={service.id}
+              service={service}
+            ></DisplayService2>
           ))}
         </Row>
       </div>

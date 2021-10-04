@@ -4,7 +4,7 @@ import Footer from "./components/Footer/Footer";
 import Header from "./components/Header/Header";
 import Navbar from "./components/Navbar/Navbar";
 import About from "./pages/About/About";
-import Courses from "./pages/Courses/Courses";
+import Blog from "./pages/Blog/Blog";
 import Error from "./pages/Error/Error";
 import Home from "./pages/Home/Home";
 import Services from "./pages/Services/Services";
@@ -28,8 +28,8 @@ function App() {
           <Route exact path="/services">
             <Services></Services>
           </Route>
-          <Route exact path="/courses">
-            <Courses></Courses>
+          <Route exact path="/blog">
+            <Blog></Blog>
           </Route>
           <Route path="/*">
             <Error></Error>
