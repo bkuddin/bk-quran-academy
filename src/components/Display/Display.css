@@ -1,0 +1,10 @@
+.display-card {
+  text-align: center;
+  box-shadow: -4px 22px 39px -6px rgba(0, 0, 0, 0.37);
+  -webkit-box-shadow: -4px 22px 39px -6px rgba(0, 0, 0, 0.37);
+  -moz-box-shadow: -4px 22px 39px -6px rgba(0, 0, 0, 0.37);
+  padding: 5%;
+  border-radius: 20px;
+  margin: 0 auto;
+  height: 50%;
+}
