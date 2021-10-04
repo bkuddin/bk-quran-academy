@@ -11,10 +11,7 @@ const Header = () => {
             src="https://i.ibb.co/P6pTr6w/Group-1.png"
             alt="First slide"
           />
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
+          <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -23,10 +20,7 @@ const Header = () => {
             alt="Second slide"
           />
 
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
+          <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
           <img
@@ -35,10 +29,7 @@ const Header = () => {
             alt="Third slide"
           />
 
-          <Carousel.Caption>
-            <h3></h3>
-            <p></p>
-          </Carousel.Caption>
+          <Carousel.Caption></Carousel.Caption>
         </Carousel.Item>
       </Carousel>
     </div>
