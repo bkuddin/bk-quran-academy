@@ -19,7 +19,7 @@ LEARN QURAN is a virtual university that brings teachers & students interested i
 
 Insert gif or link to demo
 
-https://ibb.co/nnykKGF
+https://learn-quran-react.netlify.app/
 
 ## Features
 
