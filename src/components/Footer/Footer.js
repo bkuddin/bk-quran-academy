@@ -9,11 +9,10 @@ function Footer() {
           {/* Column1 */}
           <div className="col">
             <h4>LEARN QURAN</h4>
-            <h5 className="list-unstyled">
-              <li>01923-806969</li>
+            <h6 className="list-unstyled">
+              <li>0130-3099389</li>
               <li>Dhaka, Bangladesh</li>
-              <li>324/5 Rayerbag</li>
-            </h5>
+            </h6>
           </div>
           {/* Column2 */}
           <div className="col">
@@ -31,6 +30,7 @@ function Footer() {
             <ui className="list-unstyled">
               <li>
                 <a
+                  style={{ textDecoration: "none", color: "#f0fff1" }}
                   href="https://www.facebook.com/bakhtiar.uddins/"
                   target="_blank"
                 >
