@@ -11,8 +11,8 @@ function NavBar() {
       <nav className="navbar">
         <div className="nav-container">
           <NavLink exact to="/" className="nav-logo">
-            Learn Quran
-            <i className="fas fa-code"></i>
+            LEARN QURAN
+            <i class="bi bi-app"></i>
           </NavLink>
 
           <ul className={click ? "nav-menu active" : "nav-menu"}>

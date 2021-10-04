@@ -3,7 +3,6 @@ import { Card, Col } from "react-bootstrap";
 import "./Display.css";
 
 const Display = (props) => {
-  console.log(props.topic);
   const { title, description, img } = props.topic;
   return (
     <div>

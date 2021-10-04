@@ -16,7 +16,7 @@ const Home = () => {
       <h1 style={{ textAlign: "center" }}>Our Recent Courses</h1>
       <Row xs={2} md={4} className="g-4">
         {topics.map((topic) => (
-          <Display topic={topic}></Display>
+          <Display key={topic.key} topic={topic}></Display>
         ))}
       </Row>
     </div>

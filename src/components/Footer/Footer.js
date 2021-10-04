@@ -29,7 +29,14 @@ function Footer() {
           <div className="col">
             <h4>Social Links</h4>
             <ui className="list-unstyled">
-              <li>Facebook</li>
+              <li>
+                <a
+                  href="https://www.facebook.com/bakhtiar.uddins/"
+                  target="_blank"
+                >
+                  Facebook
+                </a>
+              </li>
               <li>Twitter</li>
               <li>Linkedin</li>
             </ui>
