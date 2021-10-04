@@ -13,8 +13,8 @@ const Home = () => {
   }, []);
   return (
     <div className="py-5">
-      <h1 style={{ textAlign: "center" }}>Our Recent Courses</h1>
-      <Row xs={2} md={4} className="g-4">
+      <h1 style={{ textAlign: "center" }}>What is Learn Quran Project?</h1>
+      <Row xs={2} md={4} className="g-4 my-5">
         {topics.map((topic) => (
           <Display key={topic.key} topic={topic}></Display>
         ))}

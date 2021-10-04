@@ -52,6 +52,10 @@
   margin-right: 1rem;
 }
 
+.nav-item li:hover {
+  color: #f5b921;
+}
+
 .nav-item:after {
   content: "";
   display: block;

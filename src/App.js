@@ -31,7 +31,7 @@ function App() {
           <Route exact path="/courses">
             <Courses></Courses>
           </Route>
-          <Route path="*">
+          <Route path="/*">
             <Error></Error>
           </Route>
         </Switch>
